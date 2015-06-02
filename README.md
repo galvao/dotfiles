@@ -2,9 +2,9 @@
 
 Repo for managing and keeping my dotfiles up-to-date.
 
-## Plugins installed in my GVim (some configs in the .vimrc file may relate to them):
+### Plugins installed in my GVim (some configs in the .vimrc file may relate to them):
 
-* emmet-vim
+* [emmet-vim](https://github.com/mattn/emmet-vim)
 * [nerdtree](https://github.com/scrooloose/nerdtree)
 * [snipmate](https://github.com/msanders/snipmate.vim)
 * [vim-airline](https://github.com/bling/vim-airline)
