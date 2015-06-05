@@ -1,0 +1,13 @@
+{
+    "require": {
+        "zendframework/zendframework": "^2.4",
+        "league/climate": "^3.1",
+        "phpdocumentor/template-zend": "*",
+        "phpdocumentor/phpdocumentor": "*",
+        "phpunit/phpunit": "^4.7",
+        "sebastian/phpcpd": "*",
+        "phploc/phploc": "*",
+        "squizlabs/php_codesniffer": "*",
+        "fabpot/php-cs-fixer": "^1.8"
+    }
+}
