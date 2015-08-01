@@ -8,6 +8,10 @@
         "sebastian/phpcpd": "*",
         "phploc/phploc": "*",
         "squizlabs/php_codesniffer": "*",
-        "fabpot/php-cs-fixer": "^1.8"
+        "fabpot/php-cs-fixer": "^1.8",
+        "psecio/iniscan": "^3.6",
+        "webmozart/console": "~1.0@beta",
+        "codeception/codeception": "*",
+        "behat/behat": "^3.0"
     }
 }
