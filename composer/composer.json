@@ -12,6 +12,12 @@
         "psecio/iniscan": "^3.6",
         "webmozart/console": "~1.0@beta",
         "codeception/codeception": "*",
-        "behat/behat": "^3.0"
+        "behat/behat": "^3.0",
+        "fzaninotto/faker": "^1.5",
+        "phpmailer/phpmailer": "^5.2",
+        "deployer/deployer": "^3.0",
+        "monolog/monolog": "^1.16",
+        "galvao/data-abstract": "*@dev",
+        "phing/phing": "^2.12"
     }
 }
