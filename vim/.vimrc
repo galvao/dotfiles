@@ -25,7 +25,7 @@ filetype plugin indent on
 :set t_Co=256
 
 :set background=dark
-colorscheme monokai
+colorscheme monokainoit
 
 :set encoding=utf-8
 :set cursorline
@@ -50,6 +50,7 @@ colorscheme monokai
 
 " Specific options for auto-completion
 " @todo: Document it properly
+let g:ycm_auto_trigger = 0
 :set wildmenu
 :set wildmode=list:longest
 
@@ -107,7 +108,7 @@ if !exists('g:airline_symbols')
 endif
 let g:airline#extensions#whitespace#checks = [ 'indent' ]
 
-set guifont=Inconsolata\ for\ Powerline\ 12
+set guifont=Inconsolata\ for\ Powerline\ 11
 
 " Always hava a status line
 set laststatus=2
