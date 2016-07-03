@@ -50,9 +50,11 @@ colorscheme monokainoit
 
 " Specific options for auto-completion
 " @todo: Document it properly
-let g:ycm_auto_trigger = 0
-:set wildmenu
-:set wildmode=list:longest
+"let g:ycm_auto_trigger = 0
+":set wildmenu
+":set wildmode=list:longest
+let g:SuperTabMappingForward = '<c-space>'
+let g:SuperTabMappingBackward = '<s-c-space>'
 
 " @todo: Check if these are truly necessary and document them
 :set undofile
@@ -69,8 +71,8 @@ nnoremap <Space> za
 " Incremental search, show matches
 :set incsearch
 :set showmatch
-:map <Leader>s :set hlsearch<CR>
-:map <Leader>S :set nohlsearch<CR>
+" F3 toggles search highlight
+nnoremap <F3> :set hlsearch!<CR>
 
 " Case insensitive, respect case if caps are typed
 :set ignorecase
@@ -116,8 +118,9 @@ set laststatus=2
 " Can't exactly remember, guessing is so folding is not activated upon opening a file
 :autocmd BufWinEnter * let &foldlevel = max(map(range(1, line('$')), 'foldlevel(v:val)'))
 
-" Character used for indentation lines
-:let g:indentLine_char = "|"
+" Starting indentation on level 1 and a smaller guide size
+:let g:indent_guides_start_level = 2
+:let g:indent_guides_guide_size = 1
 
 " Highlights an area of 120 characters, so you notice if you go over this limit (PSR2)
 let &colorcolumn=join(range(121,999),",")
