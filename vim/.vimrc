@@ -15,8 +15,11 @@
 " No compatibility with vi
 :set nocompatible
 
+:set encoding=utf8
+
 " Pathogen, used for managing plugins
 execute pathogen#infect()
+call pathogen#helptags()
 
 syntax on
 filetype plugin indent on
@@ -27,7 +30,16 @@ filetype plugin indent on
 :set background=dark
 colorscheme monokainoit
 
-:set encoding=utf-8
+:if has("terminfo")
+:  set t_Co=16
+:  set t_AB=<Esc>[%?%p1%{8}%<%t%p1%{40}%+%e%p1%{92}%+%;%dm
+:  set t_AF=<Esc>[%?%p1%{8}%<%t%p1%{30}%+%e%p1%{82}%+%;%dm
+:else
+:  set t_Co=16
+:  set t_Sf=<Esc>[3%dm
+:  set t_Sb=<Esc>[4%dm
+:endif
+
 :set cursorline
 
 " Specific cursor line colors. Disabled in favor of the PSR2 related hack
@@ -64,6 +76,9 @@ let g:SuperTabMappingBackward = '<s-c-space>'
 " Automatic indentation, smart indentation
 :set autoindent
 :set smartindent
+
+" Set the folding method to indent
+:set foldmethod=indent
 
 " Use the space bar to open/close foldings
 nnoremap <Space> za
@@ -110,13 +125,17 @@ if !exists('g:airline_symbols')
 endif
 let g:airline#extensions#whitespace#checks = [ 'indent' ]
 
-set guifont=Inconsolata\ for\ Powerline\ 11
+set guifont=Inconsolata\ for\ Powerline\ Nerd\ Font\ 11
+
 
 " Always hava a status line
 set laststatus=2
 
 " Can't exactly remember, guessing is so folding is not activated upon opening a file
 :autocmd BufWinEnter * let &foldlevel = max(map(range(1, line('$')), 'foldlevel(v:val)'))
+
+" Reload .vimrc upon saving it
+au BufWritePost .vimrc so ~/.vimrc
 
 " Starting indentation on level 1 and a smaller guide size
 :let g:indent_guides_start_level = 2
@@ -147,3 +166,7 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 "	autocmd bufwritepost .vimrc source $MYVIMRC
 "	filetype plugin indent on
 "endif
+
+" VDebug Configuration
+let g:vdebug_options = {} 
+let g:vdebug_options["port"] = 9000
