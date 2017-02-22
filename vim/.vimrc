@@ -15,6 +15,9 @@
 " No compatibility with vi
 :set nocompatible
 
+" Best mouse usage on vim >= 8
+:set mouse=a
+
 :set encoding=utf8
 
 " Pathogen, used for managing plugins
@@ -28,7 +31,7 @@ filetype plugin indent on
 :set t_Co=256
 
 :set background=dark
-colorscheme monokainoit
+colorscheme monokai
 
 :if has("terminfo")
 :  set t_Co=16
@@ -125,7 +128,7 @@ if !exists('g:airline_symbols')
 endif
 let g:airline#extensions#whitespace#checks = [ 'indent' ]
 
-set guifont=Inconsolata\ for\ Powerline\ Nerd\ Font\ 11
+set guifont=Inconsolata\ for\ Powerline\ Nerd\ Font\ 12
 
 
 " Always hava a status line
