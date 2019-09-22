@@ -5,12 +5,12 @@
 </head>
 <body>
   <outline title="PHP" text="PHP">
+      <outline text="A Semana PHP" title="RSS" type="rss" 
+            xmlUrl="https://www.getrevue.co/profile/asemanaphp?format=rss" htmlUrl="https://www.getrevue.co/profile/asemanaphp"/>
       <outline text="Alexander Makarov" title="Alexander Makarov" type="rss" 
             xmlUrl="https://en.rmcreative.ru/index.xml" htmlUrl="https://en.rmcreative.ru/"/>
       <outline text="Andreas Möller" title="Andreas Möller" type="rss" 
             xmlUrl="https://localheinz.com/feed.xml" htmlUrl="https://localheinz.com/"/>
-      <outline text="Atom 1.0" title="Atom 1.0" type="rss" 
-            xmlUrl="https://blog.remirepo.net/feed/atom" htmlUrl="https://blog.remirepo.net/"/>
       <outline text="Blog - Enrico Zimuel" title="Blog - Enrico Zimuel" type="rss" 
             xmlUrl="https://www.zimuel.it//feed" htmlUrl="https://www.zimuel.it/blog"/>
       <outline text="Derick Rethans" title="Derick Rethans" type="rss" 
@@ -29,9 +29,11 @@
             xmlUrl="http://www.php.net/feed.atom" htmlUrl="http://www.php.net/feed.atom"/>
       <outline text="PHP: Hypertext Preprocessor" title="PHP: Hypertext Preprocessor" type="rss" 
             xmlUrl="http://php.net/feed.atom" htmlUrl="http://php.net/feed.atom"/>
+      <outline text="RemiRepo" title="Atom 1.0" type="rss" 
+            xmlUrl="https://blog.remirepo.net/feed/atom" htmlUrl="https://blog.remirepo.net/"/>
       <outline text="Rob Allen&#39;s DevNotes » Feed" title="Rob Allen&#39;s DevNotes » Feed" type="rss" 
             xmlUrl="https://akrabat.com/feed/" htmlUrl="https://akrabat.com"/>
-      <outline text="RSS Feed for SammyK.me" title="RSS Feed for SammyK.me" type="rss" 
+      <outline text="SammyK" title="RSS Feed for SammyK.me" type="rss" 
             xmlUrl="http://feeds.feedburner.com/SammyK-me" htmlUrl="https://www.sammyk.me"/>
       <outline text="XDebug" title="Untitled feed" type="rss" 
             xmlUrl="https://xdebug.org/rss.php" htmlUrl="http://xdebug.org"/>
@@ -43,16 +45,14 @@
       <outline text="adamwathan.me RSS Feed" title="adamwathan.me RSS Feed" type="rss" 
             xmlUrl="https://adamwathan.me/rss"/>
   <outline title="APIs" text="APIs">
-      <outline text="OpenAPI Initiative » Feed" title="OpenAPI Initiative » Feed" type="rss" 
-            xmlUrl="https://www.openapis.org/feed" htmlUrl="https://www.openapis.org"/>
-      <outline text="Atom Feed" title="Atom Feed" type="rss" 
-            xmlUrl="https://philsturgeon.uk/feed.xml" htmlUrl="https://philsturgeon.uk/feed.xml"/>
-      <outline text="RSS" title="RSS" type="rss" 
-            xmlUrl="https://blog.apisyouwonthate.com/feed" htmlUrl="https://blog.apisyouwonthate.com?source=rss----eea7a2e4e603---4"/>
       <outline text="API Evangelist Blog - RSS 2.0" title="API Evangelist Blog - RSS 2.0" type="rss" 
             xmlUrl="https://apievangelist.com/blog.xml" htmlUrl="https://apievangelist.com"/>
-      <outline text="Atom Feed" title="Atom Feed" type="rss" 
-            xmlUrl="https://phil.tech/feed.xml"/>
+      <outline text="APIs you won&#39;t hate" title="RSS" type="rss" 
+            xmlUrl="https://blog.apisyouwonthate.com/feed" htmlUrl="https://blog.apisyouwonthate.com?source=rss----eea7a2e4e603---4"/>
+      <outline text="OpenAPI Initiative » Feed" title="OpenAPI Initiative » Feed" type="rss" 
+            xmlUrl="https://www.openapis.org/feed" htmlUrl="https://www.openapis.org"/>
+      <outline text="PhilSturgeon" title="Atom Feed" type="rss" 
+            xmlUrl="https://philsturgeon.uk/feed.xml" htmlUrl="https://philsturgeon.uk/feed.xml"/>
   </outline>
   <outline title="Dev - General" text="Dev - General">
       <outline text="The Clean Code Blog" title="The Clean Code Blog" type="rss" 
