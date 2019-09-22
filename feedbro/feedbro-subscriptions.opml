@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+<title>Feed Subscriptions</title>
+</head>
+<body>
+  <outline title="PHP" text="PHP">
+      <outline text="Alexander Makarov" title="Alexander Makarov" type="rss" 
+            xmlUrl="https://en.rmcreative.ru/index.xml" htmlUrl="https://en.rmcreative.ru/"/>
+      <outline text="Andreas Möller" title="Andreas Möller" type="rss" 
+            xmlUrl="https://localheinz.com/feed.xml" htmlUrl="https://localheinz.com/"/>
+      <outline text="Atom 1.0" title="Atom 1.0" type="rss" 
+            xmlUrl="https://blog.remirepo.net/feed/atom" htmlUrl="https://blog.remirepo.net/"/>
+      <outline text="Blog - Enrico Zimuel" title="Blog - Enrico Zimuel" type="rss" 
+            xmlUrl="https://www.zimuel.it//feed" htmlUrl="https://www.zimuel.it/blog"/>
+      <outline text="Derick Rethans" title="Derick Rethans" type="rss" 
+            xmlUrl="http://derickrethans.nl/feed.xml" htmlUrl="https://derickrethans.nl/archive.html" maxItems="2000"/>
+      <outline text="Exakat » Feed" title="Exakat » Feed" type="rss" 
+            xmlUrl="https://www.exakat.io/feed/" htmlUrl="https://www.exakat.io"/>
+      <outline text="GeekyBoy.com » Feed" title="GeekyBoy.com » Feed" type="rss" 
+            xmlUrl="http://www.geekyboy.com/feed" htmlUrl="https://www.geekyboy.com"/>
+      <outline text="Jordi Boggiano" title="Jordi Boggiano" type="rss" 
+            xmlUrl="http://feeds.seld.be/blog-seld" htmlUrl="http://seld.be/"/>
+      <outline text="Musings, ninja ones - RSS" title="Musings, ninja ones - RSS" type="rss" 
+            xmlUrl="https://blog.krakjoe.ninja/feeds/posts/default?alt=rss" htmlUrl="https://blog.krakjoe.ninja/"/>
+      <outline text="PHP Release feed" title="PHP Release feed" type="rss" 
+            xmlUrl="http://php.net/releases/feed.php" htmlUrl="http://php.net/releases/feed.php"/>
+      <outline text="PHP.net news &#38; announcements" title="PHP.net news &#38; announcements" type="rss" 
+            xmlUrl="http://www.php.net/feed.atom" htmlUrl="http://www.php.net/feed.atom"/>
+      <outline text="PHP: Hypertext Preprocessor" title="PHP: Hypertext Preprocessor" type="rss" 
+            xmlUrl="http://php.net/feed.atom" htmlUrl="http://php.net/feed.atom"/>
+      <outline text="Rob Allen&#39;s DevNotes » Feed" title="Rob Allen&#39;s DevNotes » Feed" type="rss" 
+            xmlUrl="https://akrabat.com/feed/" htmlUrl="https://akrabat.com"/>
+      <outline text="RSS Feed for SammyK.me" title="RSS Feed for SammyK.me" type="rss" 
+            xmlUrl="http://feeds.feedburner.com/SammyK-me" htmlUrl="https://www.sammyk.me"/>
+      <outline text="XDebug" title="Untitled feed" type="rss" 
+            xmlUrl="https://xdebug.org/rss.php" htmlUrl="http://xdebug.org"/>
+  </outline>
+  <outline title="Zend Framework" text="Zend Framework">
+      <outline text="phly, boy, phly RSS Feed" title="phly, boy, phly RSS Feed" type="rss" 
+            xmlUrl="https://mwop.net/blog/rss.xml" htmlUrl="https://mwop.net/blog/"/>
+  </outline>
+      <outline text="adamwathan.me RSS Feed" title="adamwathan.me RSS Feed" type="rss" 
+            xmlUrl="https://adamwathan.me/rss"/>
+  <outline title="APIs" text="APIs">
+      <outline text="OpenAPI Initiative » Feed" title="OpenAPI Initiative » Feed" type="rss" 
+            xmlUrl="https://www.openapis.org/feed" htmlUrl="https://www.openapis.org"/>
+      <outline text="Atom Feed" title="Atom Feed" type="rss" 
+            xmlUrl="https://philsturgeon.uk/feed.xml" htmlUrl="https://philsturgeon.uk/feed.xml"/>
+      <outline text="RSS" title="RSS" type="rss" 
+            xmlUrl="https://blog.apisyouwonthate.com/feed" htmlUrl="https://blog.apisyouwonthate.com?source=rss----eea7a2e4e603---4"/>
+      <outline text="API Evangelist Blog - RSS 2.0" title="API Evangelist Blog - RSS 2.0" type="rss" 
+            xmlUrl="https://apievangelist.com/blog.xml" htmlUrl="https://apievangelist.com"/>
+      <outline text="Atom Feed" title="Atom Feed" type="rss" 
+            xmlUrl="https://phil.tech/feed.xml"/>
+  </outline>
+  <outline title="Dev - General" text="Dev - General">
+      <outline text="The Clean Code Blog" title="The Clean Code Blog" type="rss" 
+            xmlUrl="http://blog.cleancoder.com/atom.xml" maxItems="2000"/>
+  </outline>
+  <outline title="Security" text="Security">
+      <outline text="Null Byte RSS Feed" title="Null Byte RSS Feed" type="rss" 
+            xmlUrl="https://null-byte.wonderhowto.com/rss.xml" htmlUrl="https://null-byte.wonderhowto.com/"/>
+      <outline text="Malwarebytes Labs" title="Malwarebytes Labs" type="rss" 
+            xmlUrl="http://blog.malwarebytes.org/feed/" htmlUrl="https://blog.malwarebytes.com" maxItems="2000"/>
+      <outline text="Google Online Security Blog - Atom" title="Google Online Security Blog - Atom" type="rss" 
+            xmlUrl="https://security.googleblog.com/feeds/posts/default" htmlUrl="http://security.googleblog.com/"/>
+      <outline text="Open Web Application Security Project - Atom" title="Open Web Application Security Project - Atom" type="rss" 
+            xmlUrl="https://owasp.blogspot.com/feeds/posts/default" htmlUrl="https://owasp.blogspot.com/"/>
+  </outline>
+  <outline title="FLOSS" text="FLOSS">
+      <outline text="The Linux Foundation" title="The Linux Foundation" type="rss" 
+            xmlUrl="https://www.linuxfoundation.org/feed/" htmlUrl="https://www.linuxfoundation.org" maxItems="2000"/>
+  </outline>
+</body>
+</opml>
