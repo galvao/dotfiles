@@ -2,6 +2,10 @@
 
 Repo for managing and keeping my dotfiles up-to-date.
 
+## ToDo
+
+A lot of the information here is outdated. I'm currently working to bring it up to date.
+
 ### Plugins installed in my GVim (some configs in the .vimrc file may relate to them):
 
 * [emmet-vim](https://github.com/mattn/emmet-vim)
